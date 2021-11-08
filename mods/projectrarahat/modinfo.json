@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "projectrarahat",
+  "name": "projectrarahat",
+  "author": "mixxit",
+  "description": "A round based RPG",
+  "version": "1.0.0",
+  "dependency": {
+    "game": ""
+  }
+}

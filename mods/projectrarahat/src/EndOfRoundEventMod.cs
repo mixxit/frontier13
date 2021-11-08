@@ -4,7 +4,7 @@ using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 using Vintagestory.API.Server;
 
-namespace VSModLauncher
+namespace projectrarahat.src
 {
     /// <summary>
     /// Controls end of round events
@@ -19,8 +19,8 @@ namespace VSModLauncher
 
         public override void StartPre(ICoreAPI api)
         {
-            EndOfRoundEventModModConfigFile.Current = api.LoadOrCreateConfig<EndOfRoundEventModModConfigFile>($"{typeof(EndOfRoundEventMod).Name}.json");
-            api.World.Config.SetInt("roundTimeSeconds", EndOfRoundEventModModConfigFile.Current.RoundTimeSeconds);
+            EndOfRoundEventModConfigFile.Current = api.LoadOrCreateConfig<EndOfRoundEventModConfigFile>($"{typeof(EndOfRoundEventMod).Name}.json");
+            api.World.Config.SetInt("roundTimeSeconds", EndOfRoundEventModConfigFile.Current.RoundTimeSeconds);
             base.StartPre(api);
         }
         
@@ -33,7 +33,7 @@ namespace VSModLauncher
         {
             this.api = api;
             startTime = DateTime.Now;
-            endOfRoundEventTime = startTime.AddSeconds(EndOfRoundEventModModConfigFile.Current.RoundTimeSeconds);
+            endOfRoundEventTime = startTime.AddSeconds(EndOfRoundEventModConfigFile.Current.RoundTimeSeconds);
 
             // Check every minute
             this.api.World.RegisterGameTickListener(OnGameTick, 8000);
@@ -57,9 +57,9 @@ namespace VSModLauncher
         }
     }
 
-    public class EndOfRoundEventModModConfigFile
+    public class EndOfRoundEventModConfigFile
     {
-        public static EndOfRoundEventModModConfigFile Current { get; set; }
+        public static EndOfRoundEventModConfigFile Current { get; set; }
 
         public int RoundTimeSeconds { get; set; } = 14400;
     }

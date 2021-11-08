@@ -3,7 +3,7 @@ using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 using Vintagestory.API.Server;
 
-namespace VSModLauncher
+namespace projectrarahat.src
 {
     /// <summary>
     /// Redirects all log entries into the visual studio output window. Only for your convenience during development and testing.

@@ -1,0 +1,62 @@
+[
+    {
+        "code": "commoner",
+        "traits": [],
+        "gear": [
+            {
+                "type": "item",
+                "code": "clothes-upperbody-commoner-shirt"
+            },
+            {
+                "type": "item",
+                "code": "clothes-upperbodyover-commoner-coat"
+            },
+            {
+                "type": "item",
+                "code": "clothes-lowerbody-commoner-trousers"
+            },
+            {
+                "type": "item",
+                "code": "clothes-foot-commoner-boots"
+            },
+            {
+                "type": "item",
+                "code": "clothes-hand-commoner-gloves"
+            }
+        ]
+    },
+    {
+        "code": "farmer",
+        "traits": [],
+        "gear": [
+            {
+                "type": "item",
+                "code": "clothes-head-lackey-hat"
+            },
+            {
+                "type": "item",
+                "code": "clothes-shoulder-woolen-scarf"
+            },
+            {
+                "type": "item",
+                "code": "clothes-upperbodyover-huntsmans-tunic"
+            },
+            {
+                "type": "item",
+                "code": "clothes-hand-lackey-gloves"
+            },
+            {
+                "type": "item",
+                "code": "clothes-waist-sturdy-leather-belt"
+            },
+            {
+                "type": "item",
+                "code": "clothes-lowerbody-nomad-trousers"
+            },
+            {
+                "type": "item",
+                "code": "clothes-foot-wool-lined-knee-high-boots"
+            }
+        ]
+    }
+]
