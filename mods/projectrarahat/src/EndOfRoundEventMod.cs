@@ -35,7 +35,7 @@ namespace projectrarahat.src
             startTime = DateTime.Now;
             endOfRoundEventTime = startTime.AddSeconds(EndOfRoundEventModConfigFile.Current.RoundTimeSeconds);
 
-            // Check every minute
+            // Check every 8 secs if its end of round yet
             this.api.World.RegisterGameTickListener(OnGameTick, 8000);
         }
 
