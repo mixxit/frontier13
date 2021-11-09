@@ -15,6 +15,14 @@ namespace projectrarahat.src.Extensions
             return CharClassModState.Instance.IsPlayerGrantedInitialItems(player.PlayerUID);
         }
 
+        public static void OnPlayerClassChanged(this IServerPlayer player)
+        {
+            if (player.IsGrantedInitialItems())
+                return;
+
+            player.GrantInitialItems();
+        }
+
         public static void GrantInitialItems(this IServerPlayer player)
         {
             if (player.GetSelectedClassCode() == null)

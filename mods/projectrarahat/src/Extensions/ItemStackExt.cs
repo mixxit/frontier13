@@ -15,7 +15,7 @@ namespace projectrarahat.src.Extensions
                 throw new InvalidOperationException("missing item");
 
             EnumCharacterDressType result;
-            if (Enum.TryParse<EnumCharacterDressType>(itemStack.ItemAttributes["clothescategory"].AsString(), true, out result))
+            if (itemStack.ItemAttributes != null && Enum.TryParse<EnumCharacterDressType>(itemStack.ItemAttributes["clothescategory"].AsString(), true, out result))
                 return true;
 
             return false;

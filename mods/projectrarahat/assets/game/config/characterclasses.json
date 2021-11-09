@@ -31,6 +31,22 @@
         "gear": [
             {
                 "type": "item",
+                "code": "basket"
+            },
+            {
+                "type": "item",
+                "code": "basket"
+            },
+            {
+                "type": "item",
+                "code": "basket"
+            },
+            {
+                "type": "item",
+                "code": "basket"
+            },
+            {
+                "type": "item",
                 "code": "clothes-head-lackey-hat"
             },
             {
@@ -68,6 +84,30 @@
             {
                 "type": "item",
                 "code": "hoe-iron"
+            },
+            {
+                "type": "item",
+                "code": "seeds-sunflower"
+            },
+            {
+                "type": "item",
+                "code": "seeds-spelt"
+            },
+            {
+                "type": "item",
+                "code": "seeds-rice"
+            },
+            {
+                "type": "item",
+                "code": "seeds-rye"
+            },
+            {
+                "type": "item",
+                "code": "seeds-amaranth"
+            },
+            {
+                "type": "block",
+                "code": "wateringcan-burned"
             }
         ]
     }

@@ -40,18 +40,15 @@ namespace projectrarahat.src
 
         private void OnPlayerNowPlaying(IServerPlayer player)
         {
-            TryGiveClassItems(player);
+            RegisterPlayerClassChangedListener(player);
         }
 
-        private void TryGiveClassItems(IServerPlayer player)
+        private void RegisterPlayerClassChangedListener(IServerPlayer player)
         {
             if (CharClassModState.Instance.GetCharacterClasses() == null || CharClassModState.Instance.GetCharacterClasses().Count < 1)
                 return;
 
-            if (player.IsGrantedInitialItems())
-                return;
-
-            player.Entity.WatchedAttributes.RegisterModifiedListener("characterClass", (System.Action)(() => player.GrantInitialItems()));
+            player.Entity.WatchedAttributes.RegisterModifiedListener("characterClass", (System.Action)(() => player.OnPlayerClassChanged()));
         }
 
         private void OnSaveGameLoaded()
