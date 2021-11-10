@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Vintagestory.API.Common;
 using Vintagestory.API.Server;
+using static projectrarahat.src.AchievementsModState;
 
 namespace projectrarahat.src.Extensions
 {
@@ -15,15 +16,19 @@ namespace projectrarahat.src.Extensions
             return CharClassModState.Instance.IsPlayerGrantedInitialItems(player.PlayerUID);
         }
 
-        public static void OnPlayerClassChanged(this IServerPlayer player)
+        public static void RegisterClassAchievements(this IServerPlayer player)
         {
-            if (player.IsGrantedInitialItems())
+            if (player.GetSelectedClassCode() == null)
                 return;
 
-            player.GrantInitialItems();
+            AchievementsModState.Instance.ResetPlayer(player);
+
+            foreach (var eventToTrack in AchievementsModState.Instance.GetClassEventsToTrack(player.GetSelectedClassCode()))
+                AchievementsModState.Instance.RegisterPlayerEventToTrack(player, eventToTrack);
         }
 
-        public static void GrantInitialItems(this IServerPlayer player)
+
+        public static void GrantInitialClassItems(this IServerPlayer player)
         {
             if (player.GetSelectedClassCode() == null)
                 return;

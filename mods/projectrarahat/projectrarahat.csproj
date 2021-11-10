@@ -66,12 +66,15 @@
     <Content Include="modinfo.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="src\AchievementsModState.cs" />
     <Compile Include="src\CharClassMod.cs" />
     <Compile Include="src\CharClassModState.cs" />
+    <Compile Include="src\AchievementsMod.cs" />
     <Compile Include="src\EndOfRoundEventMod.cs" />
     <Compile Include="src\Extensions\IServerPlayerExt.cs" />
     <Compile Include="src\Extensions\ItemStackExt.cs" />
     <Compile Include="src\Foundation\Extensions\ApiExtensions.cs" />
+    <Compile Include="src\LogUtils.cs" />
     <Compile Include="src\RedirectLogs.cs" />
   </ItemGroup>
   <ItemGroup />

@@ -32,10 +32,10 @@ namespace projectrarahat.src
         public override void StartServerSide(ICoreServerAPI api)
         {
             this.api = api;
+            this.api.Event.SaveGameLoaded += new Vintagestory.API.Common.Action(this.OnSaveGameLoaded);
+            this.api.Event.PlayerNowPlaying += new PlayerDelegate(this.OnPlayerNowPlaying);
             // Check every 8 seconds
             this.api.World.RegisterGameTickListener(OnGameTick, 8000);
-            this.api.Event.PlayerNowPlaying += new PlayerDelegate(this.OnPlayerNowPlaying);
-            this.api.Event.SaveGameLoaded += new Vintagestory.API.Common.Action(this.OnSaveGameLoaded);
         }
 
         private void OnPlayerNowPlaying(IServerPlayer player)
@@ -48,19 +48,22 @@ namespace projectrarahat.src
             if (CharClassModState.Instance.GetCharacterClasses() == null || CharClassModState.Instance.GetCharacterClasses().Count < 1)
                 return;
 
-            player.Entity.WatchedAttributes.RegisterModifiedListener("characterClass", (System.Action)(() => player.OnPlayerClassChanged()));
+            player.Entity.WatchedAttributes.RegisterModifiedListener("characterClass", (System.Action)(() => OnPlayerClassChanged(player)));
+        }
+
+        private void OnPlayerClassChanged(IServerPlayer player)
+        {
+            if (player.IsGrantedInitialItems())
+                return;
+
+            player.GrantInitialClassItems();
         }
 
         private void OnSaveGameLoaded()
         {
             CharClassModState.Instance.SetCharacterClasses(this.api.Assets.Get("config/characterclasses.json").ToObject<List<CharacterClass>>());
-            LogInfo($"Found {CharClassModState.Instance.GetCharacterClasses().Count()} json character classes");
-            LogInfo("CharClassMod started");
-        }
-
-        private void LogInfo(string message)
-        {
-            System.Diagnostics.Debug.WriteLine("[Server:CharClassMod] " + message);
+            LogUtils<CharClassMod>.LogInfo($"Found {CharClassModState.Instance.GetCharacterClasses().Count()} json character classes");
+            LogUtils<CharClassMod>.LogInfo("CharClassMod started");
         }
 
         private void OnGameTick(float tick)
