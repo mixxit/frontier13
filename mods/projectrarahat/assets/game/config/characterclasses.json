@@ -110,5 +110,499 @@
                 "code": "wateringcan-burned"
             }
         ]
+    },
+    {
+        "code": "king",
+        "traits": [],
+        "gear": [
+            {
+                "type": "item",
+                "code": "clothes-upperbody-commoner-shirt"
+            },
+            {
+                "type": "item",
+                "code": "clothes-upperbodyover-commoner-coat"
+            },
+            {
+                "type": "item",
+                "code": "clothes-lowerbody-commoner-trousers"
+            },
+            {
+                "type": "item",
+                "code": "clothes-foot-commoner-boots"
+            },
+            {
+                "type": "item",
+                "code": "clothes-hand-commoner-gloves"
+            }
+        ]
+    },
+    {
+        "code": "trader",
+        "traits": [],
+        "gear": [
+            {
+                "type": "item",
+                "code": "clothes-upperbody-commoner-shirt"
+            },
+            {
+                "type": "item",
+                "code": "clothes-upperbodyover-commoner-coat"
+            },
+            {
+                "type": "item",
+                "code": "clothes-lowerbody-commoner-trousers"
+            },
+            {
+                "type": "item",
+                "code": "clothes-foot-commoner-boots"
+            },
+            {
+                "type": "item",
+                "code": "clothes-hand-commoner-gloves"
+            }
+        ]
+    },
+    {
+        "code": "cityofficial",
+        "traits": [],
+        "gear": [
+            {
+                "type": "item",
+                "code": "clothes-upperbody-commoner-shirt"
+            },
+            {
+                "type": "item",
+                "code": "clothes-upperbodyover-commoner-coat"
+            },
+            {
+                "type": "item",
+                "code": "clothes-lowerbody-commoner-trousers"
+            },
+            {
+                "type": "item",
+                "code": "clothes-foot-commoner-boots"
+            },
+            {
+                "type": "item",
+                "code": "clothes-hand-commoner-gloves"
+            }
+        ]
+    },
+    {
+        "code": "cargoworker",
+        "traits": [],
+        "gear": [
+            {
+                "type": "item",
+                "code": "clothes-upperbody-commoner-shirt"
+            },
+            {
+                "type": "item",
+                "code": "clothes-upperbodyover-commoner-coat"
+            },
+            {
+                "type": "item",
+                "code": "clothes-lowerbody-commoner-trousers"
+            },
+            {
+                "type": "item",
+                "code": "clothes-foot-commoner-boots"
+            },
+            {
+                "type": "item",
+                "code": "clothes-hand-commoner-gloves"
+            }
+        ]
+    },
+    {
+        "code": "physician",
+        "traits": [],
+        "gear": [
+            {
+                "type": "item",
+                "code": "clothes-upperbody-commoner-shirt"
+            },
+            {
+                "type": "item",
+                "code": "clothes-upperbodyover-commoner-coat"
+            },
+            {
+                "type": "item",
+                "code": "clothes-lowerbody-commoner-trousers"
+            },
+            {
+                "type": "item",
+                "code": "clothes-foot-commoner-boots"
+            },
+            {
+                "type": "item",
+                "code": "clothes-hand-commoner-gloves"
+            }
+        ]
+    },
+    {
+        "code": "barkeep",
+        "traits": [],
+        "gear": [
+            {
+                "type": "item",
+                "code": "clothes-upperbody-commoner-shirt"
+            },
+            {
+                "type": "item",
+                "code": "clothes-upperbodyover-commoner-coat"
+            },
+            {
+                "type": "item",
+                "code": "clothes-lowerbody-commoner-trousers"
+            },
+            {
+                "type": "item",
+                "code": "clothes-foot-commoner-boots"
+            },
+            {
+                "type": "item",
+                "code": "clothes-hand-commoner-gloves"
+            }
+        ]
+    },
+    {
+        "code": "guardcaptain",
+        "traits": [],
+        "gear": [
+            {
+                "type": "item",
+                "code": "clothes-upperbody-commoner-shirt"
+            },
+            {
+                "type": "item",
+                "code": "clothes-upperbodyover-commoner-coat"
+            },
+            {
+                "type": "item",
+                "code": "clothes-lowerbody-commoner-trousers"
+            },
+            {
+                "type": "item",
+                "code": "clothes-foot-commoner-boots"
+            },
+            {
+                "type": "item",
+                "code": "clothes-hand-commoner-gloves"
+            }
+        ]
+    },
+    {
+        "code": "cityguard",
+        "traits": [],
+        "gear": [
+            {
+                "type": "item",
+                "code": "clothes-upperbody-commoner-shirt"
+            },
+            {
+                "type": "item",
+                "code": "clothes-upperbodyover-commoner-coat"
+            },
+            {
+                "type": "item",
+                "code": "clothes-lowerbody-commoner-trousers"
+            },
+            {
+                "type": "item",
+                "code": "clothes-foot-commoner-boots"
+            },
+            {
+                "type": "item",
+                "code": "clothes-hand-commoner-gloves"
+            }
+        ]
+    },
+    {
+        "code": "ranger",
+        "traits": [],
+        "gear": [
+            {
+                "type": "item",
+                "code": "clothes-upperbody-commoner-shirt"
+            },
+            {
+                "type": "item",
+                "code": "clothes-upperbodyover-commoner-coat"
+            },
+            {
+                "type": "item",
+                "code": "clothes-lowerbody-commoner-trousers"
+            },
+            {
+                "type": "item",
+                "code": "clothes-foot-commoner-boots"
+            },
+            {
+                "type": "item",
+                "code": "clothes-hand-commoner-gloves"
+            }
+        ]
+    },
+    {
+        "code": "sorcerer",
+        "traits": [],
+        "gear": [
+            {
+                "type": "item",
+                "code": "clothes-upperbody-commoner-shirt"
+            },
+            {
+                "type": "item",
+                "code": "clothes-upperbodyover-commoner-coat"
+            },
+            {
+                "type": "item",
+                "code": "clothes-lowerbody-commoner-trousers"
+            },
+            {
+                "type": "item",
+                "code": "clothes-foot-commoner-boots"
+            },
+            {
+                "type": "item",
+                "code": "clothes-hand-commoner-gloves"
+            }
+        ]
+    },
+    {
+        "code": "priest",
+        "traits": [],
+        "gear": [
+            {
+                "type": "item",
+                "code": "clothes-upperbody-commoner-shirt"
+            },
+            {
+                "type": "item",
+                "code": "clothes-upperbodyover-commoner-coat"
+            },
+            {
+                "type": "item",
+                "code": "clothes-lowerbody-commoner-trousers"
+            },
+            {
+                "type": "item",
+                "code": "clothes-foot-commoner-boots"
+            },
+            {
+                "type": "item",
+                "code": "clothes-hand-commoner-gloves"
+            }
+        ]
+    },
+    {
+        "code": "baker",
+        "traits": [],
+        "gear": [
+            {
+                "type": "item",
+                "code": "clothes-upperbody-commoner-shirt"
+            },
+            {
+                "type": "item",
+                "code": "clothes-upperbodyover-commoner-coat"
+            },
+            {
+                "type": "item",
+                "code": "clothes-lowerbody-commoner-trousers"
+            },
+            {
+                "type": "item",
+                "code": "clothes-foot-commoner-boots"
+            },
+            {
+                "type": "item",
+                "code": "clothes-hand-commoner-gloves"
+            }
+        ]
+    },
+    {
+        "code": "smith",
+        "traits": [],
+        "gear": [
+            {
+                "type": "item",
+                "code": "clothes-upperbody-commoner-shirt"
+            },
+            {
+                "type": "item",
+                "code": "clothes-upperbodyover-commoner-coat"
+            },
+            {
+                "type": "item",
+                "code": "clothes-lowerbody-commoner-trousers"
+            },
+            {
+                "type": "item",
+                "code": "clothes-foot-commoner-boots"
+            },
+            {
+                "type": "item",
+                "code": "clothes-hand-commoner-gloves"
+            }
+        ]
+    },
+    {
+        "code": "mason",
+        "traits": [],
+        "gear": [
+            {
+                "type": "item",
+                "code": "clothes-upperbody-commoner-shirt"
+            },
+            {
+                "type": "item",
+                "code": "clothes-upperbodyover-commoner-coat"
+            },
+            {
+                "type": "item",
+                "code": "clothes-lowerbody-commoner-trousers"
+            },
+            {
+                "type": "item",
+                "code": "clothes-foot-commoner-boots"
+            },
+            {
+                "type": "item",
+                "code": "clothes-hand-commoner-gloves"
+            }
+        ]
+    },
+    {
+        "code": "miner",
+        "traits": [],
+        "gear": [
+            {
+                "type": "item",
+                "code": "clothes-upperbody-commoner-shirt"
+            },
+            {
+                "type": "item",
+                "code": "clothes-upperbodyover-commoner-coat"
+            },
+            {
+                "type": "item",
+                "code": "clothes-lowerbody-commoner-trousers"
+            },
+            {
+                "type": "item",
+                "code": "clothes-foot-commoner-boots"
+            },
+            {
+                "type": "item",
+                "code": "clothes-hand-commoner-gloves"
+            }
+        ]
+    },
+    {
+        "code": "lumberjack",
+        "traits": [],
+        "gear": [
+            {
+                "type": "item",
+                "code": "clothes-upperbody-commoner-shirt"
+            },
+            {
+                "type": "item",
+                "code": "clothes-upperbodyover-commoner-coat"
+            },
+            {
+                "type": "item",
+                "code": "clothes-lowerbody-commoner-trousers"
+            },
+            {
+                "type": "item",
+                "code": "clothes-foot-commoner-boots"
+            },
+            {
+                "type": "item",
+                "code": "clothes-hand-commoner-gloves"
+            }
+        ]
+    },
+    {
+        "code": "tinkerer",
+        "traits": [],
+        "gear": [
+            {
+                "type": "item",
+                "code": "clothes-upperbody-commoner-shirt"
+            },
+            {
+                "type": "item",
+                "code": "clothes-upperbodyover-commoner-coat"
+            },
+            {
+                "type": "item",
+                "code": "clothes-lowerbody-commoner-trousers"
+            },
+            {
+                "type": "item",
+                "code": "clothes-foot-commoner-boots"
+            },
+            {
+                "type": "item",
+                "code": "clothes-hand-commoner-gloves"
+            }
+        ]
+    },
+    {
+        "code": "alchemist",
+        "traits": [],
+        "gear": [
+            {
+                "type": "item",
+                "code": "clothes-upperbody-commoner-shirt"
+            },
+            {
+                "type": "item",
+                "code": "clothes-upperbodyover-commoner-coat"
+            },
+            {
+                "type": "item",
+                "code": "clothes-lowerbody-commoner-trousers"
+            },
+            {
+                "type": "item",
+                "code": "clothes-foot-commoner-boots"
+            },
+            {
+                "type": "item",
+                "code": "clothes-hand-commoner-gloves"
+            }
+        ]
+    },
+    {
+        "code": "tailor",
+        "traits": [],
+        "gear": [
+            {
+                "type": "item",
+                "code": "clothes-upperbody-commoner-shirt"
+            },
+            {
+                "type": "item",
+                "code": "clothes-upperbodyover-commoner-coat"
+            },
+            {
+                "type": "item",
+                "code": "clothes-lowerbody-commoner-trousers"
+            },
+            {
+                "type": "item",
+                "code": "clothes-foot-commoner-boots"
+            },
+            {
+                "type": "item",
+                "code": "clothes-hand-commoner-gloves"
+            }
+        ]
     }
 ]
