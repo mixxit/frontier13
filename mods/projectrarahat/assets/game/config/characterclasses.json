@@ -117,23 +117,43 @@
         "gear": [
             {
                 "type": "item",
-                "code": "clothes-upperbody-commoner-shirt"
+                "code": "clothes-head-gold-coronet"
             },
             {
                 "type": "item",
-                "code": "clothes-upperbodyover-commoner-coat"
+                "code": "clothes-shoulder-royal-fur"
             },
             {
                 "type": "item",
-                "code": "clothes-lowerbody-commoner-trousers"
+                "code": "clothes-upperbody-prince-tunic"
             },
             {
                 "type": "item",
-                "code": "clothes-foot-commoner-boots"
+                "code": "clothes-upperbodyover-fur-coat"
             },
             {
                 "type": "item",
-                "code": "clothes-hand-commoner-gloves"
+                "code": "clothes-lowerbody-prince-breeches"
+            },
+            {
+                "type": "item",
+                "code": "clothes-foot-prince-boots"
+            },
+            {
+                "type": "item",
+                "code": "clothes-neck-fancy-royal-collar"
+            },
+            {
+                "type": "item",
+                "code": "clothes-hand-prince-gloves"
+            },
+            {
+                "type": "item",
+                "code": "clothes-waist-fancy-royal-belt"
+            },
+            {
+                "type": "item",
+                "code": "clothes-emblem-royal-pin"
             }
         ]
     },
