@@ -310,6 +310,22 @@
             {
                 "type": "item",
                 "code": "clothes-hand-commoner-gloves"
+            },
+            {
+                "type": "item",
+                "code": "armor-head-plate-iron"
+            },
+            {
+                "type": "item",
+                "code": "armor-body-plate-iron"
+            },
+            {
+                "type": "item",
+                "code": "armor-legs-plate-iron"
+            },
+            {
+                "type": "item",
+                "code": "longblade-iron"
             }
         ]
     },
@@ -336,6 +352,22 @@
             {
                 "type": "item",
                 "code": "clothes-hand-commoner-gloves"
+            },
+            {
+                "type": "item",
+                "code": "armor-head-plate-iron"
+            },
+            {
+                "type": "item",
+                "code": "armor-body-plate-iron"
+            },
+            {
+                "type": "item",
+                "code": "armor-legs-plate-iron"
+            },
+            {
+                "type": "item",
+                "code": "longblade-iron"
             }
         ]
     },
