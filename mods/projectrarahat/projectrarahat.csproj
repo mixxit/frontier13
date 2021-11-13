@@ -81,6 +81,9 @@
   <ItemGroup>
     <None Include="assets\game\config\characterclasses.json" />
     <None Include="assets\game\lang\en.json" />
+    <None Include="assets\game\patches\survival-entities-land-drifter.json" />
+    <None Include="assets\game\patches\survival-entities-land-bell.json" />
+    <None Include="default-world-configuration.json" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
