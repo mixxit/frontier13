@@ -25,7 +25,7 @@
         "PlayStyleLangCode": "surviveandbuild-bands",
         "WorldType": "standard",
         "WorldConfiguration": {
-            "farmlandGrowthRate": 0.25,
+            "farmlandGrowthRate": 0.03,
             "hoursPerDay": 24,
             "calendarSpeedMul": 1.2,
             "daysPerMonth": 1,
