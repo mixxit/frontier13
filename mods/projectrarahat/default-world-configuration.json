@@ -25,6 +25,9 @@
         "PlayStyleLangCode": "surviveandbuild-bands",
         "WorldType": "standard",
         "WorldConfiguration": {
+            "hoursPerDay": 24,
+            "calendarSpeedMul": 1.2,
+            "daysPerMonth": 1,
             "gameMode": "survival",
             "worldClimate": "realistic",
             "worldWidth": 5120,
@@ -33,7 +36,6 @@
             "polarEquatorDistance": 100000,
             "startingClimate": "temperate",
             "seasons": "enabled",
-            "daysPerMonth": 2,
             "snowAccum": true,
             "harshWinters": true,
             "bodyTemperatureResistance": 0,
