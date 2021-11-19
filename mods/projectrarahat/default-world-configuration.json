@@ -25,6 +25,7 @@
         "PlayStyleLangCode": "surviveandbuild-bands",
         "WorldType": "standard",
         "WorldConfiguration": {
+            "farmlandGrowthRate": 0.25,
             "hoursPerDay": 24,
             "calendarSpeedMul": 1.2,
             "daysPerMonth": 1,
@@ -53,7 +54,7 @@
             "playerMoveSpeed": 1.5,
             "blockGravity": "sandgravel",
             "foodSpoilSpeed": 1,
-            "saplingGrowthDays": 8,
+            "saplingGrowthRate": 0.25,
             "toolDurability": 1,
             "toolMiningSpeed": 1,
             "propickNodeSearchRadius": 0,
