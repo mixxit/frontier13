@@ -63,7 +63,7 @@
             "globalDepositSpawnRate": 1,
             "temporalStorms": "off",
             "tempstormDurationMul": 1,
-            "temporalStability": true,
+            "temporalStability": false,
             "allowCoordinateHud": false,
             "allowMap": false,
             "allowLandClaiming": false,
